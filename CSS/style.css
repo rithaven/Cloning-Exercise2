@@ -1,17 +1,133 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap');
 
 /* Main CSS */
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;
 }
-.navbar{
-    background-color: cadetblue;
-    width: auto;
+.section-one{
+    position: relative;
+    width: 100%;
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url('images/background.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #010c1d;
 }
-.content{
-    background-color: azure;
-    width: auto;
+.navib__right{
+    text-decoration: none;
+    color: white;
+    float: right;
+    padding-right: 1%;
+}
+.content__row{
+    display: flex;
+    padding: 1.5% 4%;
+    
+
+}
+..content__row-two{
+    display: flex;
+    padding: 1.5% 4%;
+    
+
+}
+.content_columns{
+    margin-right: 1%;
+}
+.navig__p2{
+   
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    
+}
+.content__vl-on{
+    padding: 3px;
+font-size: 30px;
+}
+.content__vl-one{
+border-left: 2px solid rgb(1, 48, 69);
+  height: 50px;
+  padding: 5px;
+  
+}
+.content_links{
+    text-decoration: none;
+    color: black;
+}
+.navig__logo{
+    width: 150px;
+    position: relative;
+    
+}
+.navig__search{
+    width: 50px;
+    margin-top: 10px;
+}
+
+.navig{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 1.5% 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navig__links{
+    color: #fff;
+    text-decoration:none ;
+    padding: 1px 15px;
+}
+.navig__content{
+    max-width: 650px;
+    margin: 60px 100px;
+    
+}
+
+.navig__info--h2{
+    color: white;
+     font-size: 50px;
+     font-weight: 800px;
+     margin-bottom: 30px;
+
+}
+.navig__info-two{
+    margin-top: 15%;
+    font-weight: 40px;
+}
+.navig__info--h3{
+    color: white;
+     font-size: 50px;
+     font-weight: 800px;
+     margin-bottom: 30px;
+
+}
+.navig__paragraph{
+   font-size: 16px;
+   font-weight: 500px; 
+   margin-bottom: 40px;
+   color: white;
+   width: 70%;
+   line-height: 2em;
+}
+.content__row-two{
+    display: flex;
+    width: 100%;
+}
+.more{
+    width: 20px;
+}
+.navig_more{
+    text-decoration: none;
+    color: white;
 }
 .footer{
     background-color:rgb(144, 141, 141);
