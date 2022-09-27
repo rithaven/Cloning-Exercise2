@@ -5,3 +5,14 @@
     margin: 0;
     padding: 0;
 }
+.navbar{
+    background-color: cadetblue;
+    width: auto;
+}
+.content{
+    background-color: azure;
+    width: auto;
+}
+.footer{
+    background-color:rgb(144, 141, 141);
+}
